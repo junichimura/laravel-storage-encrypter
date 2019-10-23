@@ -1,0 +1,25 @@
+{
+    "name": "junichimura/laravel-encrypt-storage-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Junichimura",
+            "email": "jfujimura13@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Junichimura\\LaravelEncryptStorageDriver\\": "src/"
+        }
+    },
+    "require": {
+        "laravel/framework": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Junichimura\\LaravelEncryptStorageDriver\\StorageEncrypterProvider"
+            ]
+        }
+    }
+}
